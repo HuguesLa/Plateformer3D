@@ -16821,7 +16821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0785f4d2f99dff488fcaea84315e329, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Trampoline
-  bounceForce: 10
+  bounceForce: 25
 --- !u!65 &584429949
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17497,7 +17497,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!65 &703825998
 BoxCollider:
@@ -17518,8 +17518,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 2.0000002, y: 2.54, z: 0.2726636}
-  m_Center: {x: -0.99999994, y: 0.18836975, z: 0.036331706}
+  m_Size: {x: 2.0000002, y: 2.54, z: 0.21996802}
+  m_Center: {x: -0.9999999, y: 0.18836975, z: 0.009983927}
 --- !u!114 &703826002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23502,8 +23502,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   moveSpeed: 8
-  jumpForce: 6
+  runSpeed: 15
+  jumpForce: 15
   rotationSpeed: 180
+  dashForce: 50
+  dashDuration: 0.2
+  dashCooldown: 2
+  maxStamina: 100
+  staminaDrainRate: 20
+  staminaRegenRate: 10
 --- !u!4 &1077574048 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f422cf2b71b06ea49b6cb85852d5ab29, type: 3}
@@ -23564,7 +23571,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 122
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!136 &1077574052
 CapsuleCollider:
@@ -23883,7 +23890,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 7deb47096d80b1c47891b9d7e37580f8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.65
+      value: -18.77
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 7deb47096d80b1c47891b9d7e37580f8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -39845,7 +39852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0785f4d2f99dff488fcaea84315e329, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Trampoline
-  bounceForce: 10
+  bounceForce: 25
 --- !u!65 &1613546550
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40375,38 +40382,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 6, y: 1, z: 6}
   m_Center: {x: 0, y: 0.5, z: 0}
---- !u!1 &1784080089 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-  m_PrefabInstance: {fileID: 2047027174}
-  m_PrefabAsset: {fileID: 0}
---- !u!54 &1784080090
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1784080089}
-  serializedVersion: 5
-  m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
-  m_CenterOfMass: {x: 0, y: 0, z: 0}
-  m_InertiaTensor: {x: 1, y: 1, z: 1}
-  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ImplicitCom: 1
-  m_ImplicitTensor: 1
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!1 &1847468869 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 49a894af97d89d74a93d23d961d6a341, type: 3}
@@ -40863,70 +40838,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &2047027174
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.9943
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -15.67
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.00000023841858
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -5.18
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      propertyPath: m_Name
-      value: wall_gateDoor
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1784080090}
-  m_SourcePrefab: {fileID: 100100000, guid: ca9be28ff58008d4e94eaddbccea1954, type: 3}
 --- !u!4 &2059753781 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 190a21ab79bd54941826cc7731506002, type: 3}
@@ -41081,5 +40992,4 @@ SceneRoots:
   - {fileID: 1130985151}
   - {fileID: 651383895}
   - {fileID: 447469570}
-  - {fileID: 2047027174}
   - {fileID: 1360565310}
