@@ -42,7 +42,8 @@
               "RelativeToolTip": "Assets\\Script\\Collectible.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T13:49:24.21Z"
+              "WhenOpened": "2025-10-05T13:49:24.21Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,9 +53,10 @@
               "RelativeDocumentMoniker": "Assets\\Script\\CollectibleManager.cs",
               "ToolTip": "C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\Assets\\Script\\CollectibleManager.cs",
               "RelativeToolTip": "Assets\\Script\\CollectibleManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T13:49:17.831Z"
+              "WhenOpened": "2025-10-05T13:49:17.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -64,7 +66,7 @@
               "RelativeDocumentMoniker": "Assets\\Script\\PV et degat.cs",
               "ToolTip": "C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\Assets\\Script\\PV et degat.cs",
               "RelativeToolTip": "Assets\\Script\\PV et degat.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAcAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T13:15:44.149Z",
               "EditorCaption": ""

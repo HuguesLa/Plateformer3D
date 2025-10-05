@@ -949,8 +949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04d4b405425d75e46b384fdcfc10a5d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PVetdegat
-  PVtext: {fileID: 0}
-  PV: 3
+  PVtext: {fileID: 934183889}
 --- !u!54 &1937236758
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pv et degat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|c:\\users\\mathi\\documents\\github\\plateformer3d\\assets\\script\\collectiblemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\assets\\script\\collectiblemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\collectiblemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|c:\\users\\mathi\\documents\\github\\plateformer3d\\assets\\script\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\assets\\script\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|c:\\users\\mathi\\documents\\github\\plateformer3d\\assets\\script\\trampoline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\assets\\script\\trampoline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\trampoline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|c:\\users\\mathi\\documents\\github\\plateformer3d\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Assets\\Script\\Collectible.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T13:49:24.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T13:49:24.21Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Assets\\Script\\CollectibleManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T13:49:17.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T13:49:17.831Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Assets\\Script\\Trampoline.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T13:16:06.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T13:16:06.635Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Assets\\Script\\PlayerController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T13:15:57.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T13:15:57.973Z"
             }
           ]
         }

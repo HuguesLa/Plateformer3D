@@ -5,13 +5,13 @@ public class PVetdegat : MonoBehaviour {
 
     public static PVetdegat Instance;
     [SerializeField] private TMP_Text PVtext;
-    public int PV = 3;
+    private int PV = 3;
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            PV = PV - 1;
+            PV--;
             UpdateUI();
             gameObject.SetActive(false);
         }
