@@ -7,14 +7,10 @@ public class PVetdegat : MonoBehaviour {
     [SerializeField] private TMP_Text PVtext;
     private int PV = 3;
 
-    private void OnCollisionEnter(Collision collision)
+    public void DmgSubit()
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            PV--;
-            UpdateUI();
-            gameObject.SetActive(false);
-        }
+        PV--;
+        UpdateUI();
     }
     void Start()
     {
