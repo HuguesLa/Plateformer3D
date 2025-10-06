@@ -8,7 +8,7 @@ public class Hit : MonoBehaviour
         {
 
             PVetdegat.Instance.DmgSubit();
-            gameObject.SetActive(false);
+            // gameObject.SetActive(false);
             // Destroy(gameObject);
         }
     }

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\assets\\script\\pvetdegat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\assets\\script\\hit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\hit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|c:\\users\\mathi\\documents\\github\\plateformer3d\\assets\\script\\pvetdegat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pvetdegat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\assets\\script\\collectiblemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|c:\\users\\mathi\\documents\\github\\plateformer3d\\assets\\script\\collectiblemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\collectiblemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\assets\\script\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|c:\\users\\mathi\\documents\\github\\plateformer3d\\assets\\script\\hit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\hit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CACE2A1D-F543-FA20-A620-C6F88112E2E0}|Assembly-CSharp.csproj|C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\assets\\script\\trampoline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PVetdegat.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\Assets\\Script\\PVetdegat.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PVetdegat.cs",
@@ -51,20 +51,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Hit.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\Assets\\Script\\Hit.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Hit.cs",
               "ToolTip": "C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\Assets\\Script\\Hit.cs",
               "RelativeToolTip": "Assets\\Script\\Hit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T14:51:13.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Collectible.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\Assets\\Script\\Collectible.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Collectible.cs",
@@ -72,8 +72,7 @@
               "RelativeToolTip": "Assets\\Script\\Collectible.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T13:49:24.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T13:49:24.21Z"
             },
             {
               "$type": "Document",
@@ -103,12 +102,11 @@
               "RelativeToolTip": "Assets\\Script\\Trampoline.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T13:16:06.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T13:16:06.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CollectibleManager.cs",
               "DocumentMoniker": "C:\\Users\\mathi\\Documents\\GitHub\\Plateformer3D\\Assets\\Script\\CollectibleManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\CollectibleManager.cs",
