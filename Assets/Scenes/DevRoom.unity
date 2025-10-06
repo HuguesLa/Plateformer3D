@@ -33033,7 +33033,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c905e1689ba121c4bb631b3a531da6f3, type: 2}
+  - {fileID: 2100000, guid: 1d94aa369126a3b4cae5668d5fee2312, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -33451,6 +33451,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4033432473333554068, guid: 7c771684e6d47f94dae2bae19fa6a2de, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 290c6530bfc2d0b41b1c323f9b52d1e8, type: 2}
+    - target: {fileID: 5004322136411137272, guid: 7c771684e6d47f94dae2bae19fa6a2de, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 95f30de5da5ceb8499810e3647a2408c, type: 2}
     - target: {fileID: 5680070814380388091, guid: 7c771684e6d47f94dae2bae19fa6a2de, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.55489
@@ -33857,6 +33865,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2928197964130785668, guid: 607fb2c0e1edb2846987a8b872de0046, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c905e1689ba121c4bb631b3a531da6f3, type: 2}
     - target: {fileID: 5322801363831035271, guid: 607fb2c0e1edb2846987a8b872de0046, type: 3}
       propertyPath: m_Name
       value: Pushable block
@@ -33901,6 +33913,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9016562576800813692, guid: 607fb2c0e1edb2846987a8b872de0046, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 06ea09ba21aac4c45bc90a2ef693011b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
