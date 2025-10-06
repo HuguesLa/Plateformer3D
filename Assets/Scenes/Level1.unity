@@ -328,7 +328,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 82ec6f261e874a343826efa24755fff5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.608899
+      value: 3.52
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82ec6f261e874a343826efa24755fff5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -336,7 +336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82ec6f261e874a343826efa24755fff5, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.9089976
+      value: 12.17
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 82ec6f261e874a343826efa24755fff5, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1142,8 +1142,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   moveSpeed: 8
+  runSpeed: 8
   jumpForce: 6
   rotationSpeed: 180
+  dashForce: 30
+  dashDuration: 0.2
+  dashCooldown: 2
+  maxStamina: 100
+  staminaDrainRate: 20
+  staminaRegenRate: 10
 --- !u!4 &2107562089 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f422cf2b71b06ea49b6cb85852d5ab29, type: 3}

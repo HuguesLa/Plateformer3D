@@ -9,7 +9,7 @@ public class Hit : MonoBehaviour
 
             PVetdegat.Instance.DmgSubit();
             gameObject.SetActive(false);
-            // Ou Destroy(gameObject);
+            // Destroy(gameObject);
         }
     }
 }
