@@ -8,6 +8,7 @@ public class EndLevelObject : MonoBehaviour
     [SerializeField] private TMP_Text endLevelText;
     [SerializeField] private Button returnButton;
     [SerializeField] private string mainMenuSceneName = "MainMenu";
+    public static EndLevelObject Instance;
 
     private MeshRenderer meshRenderer;
     private Collider colliderTrigger;
@@ -42,6 +43,14 @@ public class EndLevelObject : MonoBehaviour
         if (meshRenderer != null) meshRenderer.enabled = true;
         if (colliderTrigger != null) colliderTrigger.enabled = true;
         Debug.Log("Objet de fin de niveau activé !");
+    }
+
+    public void GameOver()
+    {
+        endLevelText.text = "Game OVER";
+        endLevelText.gameObject.SetActive(true);
+        returnButton.gameObject.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     private void OnTriggerEnter(Collider other)
