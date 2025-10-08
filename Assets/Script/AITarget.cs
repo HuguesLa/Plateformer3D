@@ -21,7 +21,7 @@ public class AITarget : MonoBehaviour
     void Update()
     {
         m_Distance = Vector3.Distance(m_Agent.transform.position, Target.position);
-        if(m_Distance > 10) {
+        if(m_Distance > 20) {
             m_Agent.isStopped = true;
         }
         else

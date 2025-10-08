@@ -45,6 +45,19 @@ public class EndLevelObject : MonoBehaviour
         Debug.Log("Objet de fin de niveau activé !");
     }
 
+
+    void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     public void GameOver()
     {
         endLevelText.text = "Game OVER";

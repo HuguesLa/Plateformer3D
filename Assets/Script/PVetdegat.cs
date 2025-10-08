@@ -37,12 +37,14 @@ public class PVetdegat : MonoBehaviour {
         {
             PVtext.text = "PV : " + PV;
         }
-        else if (PV == 0){
-            EndLevelObject.Instance.GameOver();
-        }
         else
         {
             Debug.LogWarning("PVtext n'est pas assigné dans l'Inspecteur !");
         }
+        if (PV <= 0){
+            EndLevelObject.Instance.GameOver();
+            Debug.LogWarning("PV = 0");
+        }
+
     }
 }
