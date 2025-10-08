@@ -177,7 +177,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Comment jouer ?  \n\nAvancer : Z\nReculer : S\nTourner gauche : Q\nTourner
-    droite : D\nSaut : Espace\nSprint : ???\nDash : ???"
+    droite : D\nSaut : Espace\nSprint : C\nDash : Shift"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1218,9 +1218,6 @@ MonoBehaviour:
     - m_Text: Niveau 3
       m_Image: {fileID: 0}
       m_Color: {r: 0.18256311, g: 0.97735846, b: 0.6284591, a: 1}
-    - m_Text: DevRoom
-      m_Image: {fileID: 0}
-      m_Color: {r: 1, g: 0, b: 0.22057009, a: 1}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1320,7 +1317,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Jeux Vid\xE9o Plateformer NoName"
+  m_text: "Jeu Vid\xE9o Plateformer"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
