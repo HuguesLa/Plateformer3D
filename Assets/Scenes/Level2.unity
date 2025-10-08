@@ -3896,6 +3896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PVetdegat
   PVtext: {fileID: 2105748244}
+  maxPV: 3
 --- !u!4 &618341373
 Transform:
   m_ObjectHideFlags: 0
@@ -12455,7 +12456,7 @@ GameObject:
   - component: {fileID: 2105748244}
   m_Layer: 5
   m_Name: PVtext
-  m_TagString: Untagged
+  m_TagString: PVUI
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

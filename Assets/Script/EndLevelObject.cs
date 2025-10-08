@@ -45,19 +45,18 @@ public class EndLevelObject : MonoBehaviour
         Debug.Log("Objet de fin de niveau activé !");
     }
 
-
     void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
             Destroy(gameObject);
         }
     }
+
     public void GameOver()
     {
         endLevelText.text = "Game OVER";
@@ -92,6 +91,10 @@ public class EndLevelObject : MonoBehaviour
         if (CollectibleManager.Instance != null)
         {
             CollectibleManager.Instance.ResetCollectibles();
+        }
+        if (PVetdegat.Instance != null)
+        {
+            PVetdegat.Instance.ResetPV();
         }
     }
 }
